@@ -1,0 +1,1 @@
+../../../SDWebImagePhotosPlugin/SDWebImagePhotosPlugin/Module/SDWebImagePhotosPlugin.h

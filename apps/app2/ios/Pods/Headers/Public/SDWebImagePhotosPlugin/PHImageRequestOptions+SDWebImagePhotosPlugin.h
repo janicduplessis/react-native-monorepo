@@ -1,0 +1,1 @@
+../../../SDWebImagePhotosPlugin/SDWebImagePhotosPlugin/Classes/PHImageRequestOptions+SDWebImagePhotosPlugin.h

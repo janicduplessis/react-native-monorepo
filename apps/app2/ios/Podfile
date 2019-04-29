@@ -1,0 +1,14 @@
+platform :ios, '9.0'
+
+require_relative '../../../node_modules/react-native/scripts/autolink-ios'
+
+target 'app2' do
+
+  use_react_native!(path: "../../../node_modules/react-native")
+
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SDWebImageWebPCoder'
+  pod 'SDWebImagePhotosPlugin'
+
+end
+

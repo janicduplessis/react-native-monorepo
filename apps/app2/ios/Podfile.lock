@@ -1,0 +1,230 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly/Default (= 2018.10.22.00)
+    - glog
+  - Folly/Default (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+  - libwebp (1.0.2):
+    - libwebp/core (= 1.0.2)
+    - libwebp/dec (= 1.0.2)
+    - libwebp/demux (= 1.0.2)
+    - libwebp/dsp (= 1.0.2)
+    - libwebp/enc (= 1.0.2)
+    - libwebp/mux (= 1.0.2)
+    - libwebp/utils (= 1.0.2)
+    - libwebp/webp (= 1.0.2)
+  - libwebp/core (1.0.2):
+    - libwebp/webp
+  - libwebp/dec (1.0.2):
+    - libwebp/core
+  - libwebp/demux (1.0.2):
+    - libwebp/core
+  - libwebp/dsp (1.0.2):
+    - libwebp/core
+  - libwebp/enc (1.0.2):
+    - libwebp/core
+  - libwebp/mux (1.0.2):
+    - libwebp/core
+  - libwebp/utils (1.0.2):
+    - libwebp/core
+  - libwebp/webp (1.0.2)
+  - React (0.62.7):
+    - React-Core (= 0.62.7)
+    - React-DevSupport (= 0.62.7)
+    - React-RCTActionSheet (= 0.62.7)
+    - React-RCTAnimation (= 0.62.7)
+    - React-RCTBlob (= 0.62.7)
+    - React-RCTImage (= 0.62.7)
+    - React-RCTLinking (= 0.62.7)
+    - React-RCTNetwork (= 0.62.7)
+    - React-RCTSettings (= 0.62.7)
+    - React-RCTText (= 0.62.7)
+    - React-RCTVibration (= 0.62.7)
+    - React-RCTWebSocket (= 0.62.7)
+  - React-Core (0.62.7):
+    - Folly (= 2018.10.22.00)
+    - React-cxxreact (= 0.62.7)
+    - React-jsiexecutor (= 0.62.7)
+    - yoga (= 0.62.7.React)
+  - React-cxxreact (0.62.7):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsinspector (= 0.62.7)
+  - React-DevSupport (0.62.7):
+    - React-Core (= 0.62.7)
+    - React-RCTWebSocket (= 0.62.7)
+  - React-fishhook (0.62.7)
+  - React-jsi (0.62.7):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-jsi/Default (= 0.62.7)
+  - React-jsi/Default (0.62.7):
+    - boost-for-react-native (= 1.63.0)
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+  - React-jsiexecutor (0.62.7):
+    - DoubleConversion
+    - Folly (= 2018.10.22.00)
+    - glog
+    - React-cxxreact (= 0.62.7)
+    - React-jsi (= 0.62.7)
+  - React-jsinspector (0.62.7)
+  - React-RCTActionSheet (0.62.7):
+    - React-Core (= 0.62.7)
+  - React-RCTAnimation (0.62.7):
+    - React-Core (= 0.62.7)
+  - React-RCTBlob (0.62.7):
+    - React-Core (= 0.62.7)
+    - React-RCTNetwork (= 0.62.7)
+    - React-RCTWebSocket (= 0.62.7)
+  - React-RCTImage (0.62.7):
+    - React-Core (= 0.62.7)
+    - React-RCTNetwork (= 0.62.7)
+  - React-RCTLinking (0.62.7):
+    - React-Core (= 0.62.7)
+  - React-RCTNetwork (0.62.7):
+    - React-Core (= 0.62.7)
+  - React-RCTSettings (0.62.7):
+    - React-Core (= 0.62.7)
+  - React-RCTText (0.62.7):
+    - React-Core (= 0.62.7)
+  - React-RCTVibration (0.62.7):
+    - React-Core (= 0.62.7)
+  - React-RCTWebSocket (0.62.7):
+    - React-Core (= 0.62.7)
+    - React-fishhook (= 0.62.7)
+  - SDWebImage (5.0.2):
+    - SDWebImage/Core (= 5.0.2)
+  - SDWebImage/Core (5.0.2)
+  - SDWebImagePhotosPlugin (0.2.1):
+    - SDWebImage/Core (~> 5.0)
+  - SDWebImageWebPCoder (0.2.0):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.0)
+  - yoga (0.62.7.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../../../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../../../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../../../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - React (from `../../../node_modules/react-native/`)
+  - React-Core (from `../../../node_modules/react-native/React`)
+  - React-cxxreact (from `../../../node_modules/react-native/ReactCommon/cxxreact`)
+  - React-DevSupport (from `../../../node_modules/react-native/React`)
+  - React-fishhook (from `../../../node_modules/react-native/Libraries/fishhook`)
+  - React-jsi (from `../../../node_modules/react-native/ReactCommon/jsi`)
+  - React-jsiexecutor (from `../../../node_modules/react-native/ReactCommon/jsiexecutor`)
+  - React-jsinspector (from `../../../node_modules/react-native/ReactCommon/jsinspector`)
+  - React-RCTActionSheet (from `../../../node_modules/react-native/Libraries/ActionSheetIOS`)
+  - React-RCTAnimation (from `../../../node_modules/react-native/Libraries/NativeAnimation`)
+  - React-RCTBlob (from `../../../node_modules/react-native/Libraries/Blob`)
+  - React-RCTImage (from `../../../node_modules/react-native/Libraries/Image`)
+  - React-RCTLinking (from `../../../node_modules/react-native/Libraries/LinkingIOS`)
+  - React-RCTNetwork (from `../../../node_modules/react-native/Libraries/Network`)
+  - React-RCTSettings (from `../../../node_modules/react-native/Libraries/Settings`)
+  - React-RCTText (from `../../../node_modules/react-native/Libraries/Text`)
+  - React-RCTVibration (from `../../../node_modules/react-native/Libraries/Vibration`)
+  - React-RCTWebSocket (from `../../../node_modules/react-native/Libraries/WebSocket`)
+  - SDWebImage (~> 5.0)
+  - SDWebImagePhotosPlugin
+  - SDWebImageWebPCoder
+  - yoga (from `../../../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - libwebp
+    - SDWebImage
+    - SDWebImagePhotosPlugin
+    - SDWebImageWebPCoder
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "../../../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../../../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../../../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../../../node_modules/react-native/"
+  React-Core:
+    :path: "../../../node_modules/react-native/React"
+  React-cxxreact:
+    :path: "../../../node_modules/react-native/ReactCommon/cxxreact"
+  React-DevSupport:
+    :path: "../../../node_modules/react-native/React"
+  React-fishhook:
+    :path: "../../../node_modules/react-native/Libraries/fishhook"
+  React-jsi:
+    :path: "../../../node_modules/react-native/ReactCommon/jsi"
+  React-jsiexecutor:
+    :path: "../../../node_modules/react-native/ReactCommon/jsiexecutor"
+  React-jsinspector:
+    :path: "../../../node_modules/react-native/ReactCommon/jsinspector"
+  React-RCTActionSheet:
+    :path: "../../../node_modules/react-native/Libraries/ActionSheetIOS"
+  React-RCTAnimation:
+    :path: "../../../node_modules/react-native/Libraries/NativeAnimation"
+  React-RCTBlob:
+    :path: "../../../node_modules/react-native/Libraries/Blob"
+  React-RCTImage:
+    :path: "../../../node_modules/react-native/Libraries/Image"
+  React-RCTLinking:
+    :path: "../../../node_modules/react-native/Libraries/LinkingIOS"
+  React-RCTNetwork:
+    :path: "../../../node_modules/react-native/Libraries/Network"
+  React-RCTSettings:
+    :path: "../../../node_modules/react-native/Libraries/Settings"
+  React-RCTText:
+    :path: "../../../node_modules/react-native/Libraries/Text"
+  React-RCTVibration:
+    :path: "../../../node_modules/react-native/Libraries/Vibration"
+  React-RCTWebSocket:
+    :path: "../../../node_modules/react-native/Libraries/WebSocket"
+  yoga:
+    :path: "../../../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
+  Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
+  glog: 1f3da668190260b06b429bb211bfbee5cd790c28
+  libwebp: b068a3bd7c45f7460f6715be7bed1a18fd5d6b48
+  React: f3d176acde04e489133473b1d3ecf8a06b847ee3
+  React-Core: 7fd98cd67a8600b61ed1cdb1fa07cbc494a4f8d7
+  React-cxxreact: 3888d9a64e070fd503a42af35bce1f600842589b
+  React-DevSupport: 989b83df0605a3b50059f2c38693325fdf4aaa49
+  React-fishhook: 483e9b49f0d7e0b2ff3bb4b5f67f6ee6ed71d997
+  React-jsi: 29aeb14a5d060100d7bfe09e7bbe3de3bafa28c9
+  React-jsiexecutor: 4afdf43da6279b6a114e6c2968b7763d2e9d62b8
+  React-jsinspector: fdb812a6926281df65e597c024f04bb9a483546a
+  React-RCTActionSheet: cf0653cdc92f5900ff4016395c25e6cda44e4739
+  React-RCTAnimation: c5bd573e3f092832d763cab97c7b0367801057fb
+  React-RCTBlob: 87b6ca2cf8854cbfc0bad5e8a17c1fd7149df374
+  React-RCTImage: 63cd2da0522432ca736b92acd6e0375497462860
+  React-RCTLinking: 94690b82ad627f015897ab75917521c6035ee3cb
+  React-RCTNetwork: e5a4b50a2aa294f38173decb108983b8979ce12d
+  React-RCTSettings: 41fdee83807d051313be9941f0869824a7ca6cd0
+  React-RCTText: eb01c3f78dd29c1e6169e4a169ec285802a89511
+  React-RCTVibration: f29c99db1ea0161ea00a72f8df6e4a0e33f82cde
+  React-RCTWebSocket: 33163cc69c28ec9c26f4e00e406aca3940bb85a6
+  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  SDWebImagePhotosPlugin: 3a126667559b206b91d6ca6edacdc58dcaa9b2cd
+  SDWebImageWebPCoder: 22ba38003527ade6ca3874f83b8216e655d942ae
+  yoga: 1eb708985a46100f3141affe864ccecb8e620360
+
+PODFILE CHECKSUM: f793d79065ea6b6bec108886dff8c50b5a1ba230
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,17 @@
+{
+  "name": "react-native-monorepo",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:janicduplessis/react-native-monorepo.git"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/**",
+      "packages/**"
+    ]
+  }
+}
